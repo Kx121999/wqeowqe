@@ -19,7 +19,7 @@
     const FORMAT_BITS_LOW_MASK_0 = 0x77c4;
 
     const canvas = document.getElementById("qr");
-    const targetUrl = new URL("assets/document.pdf", window.location.href).href;
+    const targetUrl = new URL("pdf.html", window.location.href).href;
     drawQr(canvas, targetUrl);
 
     function drawQr(canvasElement, value) {
